@@ -13,7 +13,7 @@ function horario() {
     }
     // Verifica si es después de las 5:30 pm
     else if (hora >= 17 && minutos >= 30) {
-      return "Cerrado";
+      return "¡Hola! Gracias por escribirnos a SmartBox. Si tienes alguna consulta urgente, puedes dejarnos tu mensaje aquí y te responderemos lo antes posible.!";
     }
     // Si es un día laborable y está dentro del horario de atención, devuelve el horario
     else {
@@ -24,8 +24,8 @@ function horario() {
   else if (dia === 6 && hora >= 8 && hora < 12) {
     return "Estamos abiertos hoy sábado de 8:00 am a 12:00 pm";
   }
-  // Si no es un día laborable o está fuera del horario de atención, devuelve el mensaje de cerrado
+  // Si no es un día laborable o está fuera del horario de atención, devuelve el mensaje de ¡Hola! Gracias por escribirnos a SmartBox. En este momento, estamos fuera de nuestro horario de atención.Pronto te atenderemos en cuanto estemos disponibles. Si tienes alguna consulta urgente, puedes dejarnos tu mensaje aquí y te responderemos lo antes posible.!
   else {
-    return "Cerrado";
+    return "¡Hola! Gracias por escribirnos a SmartBox. Si tienes alguna consulta urgente, puedes dejarnos tu mensaje aquí y te responderemos lo antes posible.!";
   }
 }
